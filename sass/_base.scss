@@ -1,0 +1,59 @@
+//VARIABLES
+
+// COLORS
+$color-dark-blue: hsl(233, 26%, 24%);
+$color-lime-green: hsl(136, 65%, 51%);
+$color-lime-green-hover: rgb(97, 235, 134);
+$color-bright-cyan: hsl(192, 70%, 51%);
+$color-bright-cyan-hover: hsl(192, 75%, 66%);
+$color-grayish-blue: hsl(233, 8%, 62%);
+$color-light-grayish-blue: hsl(220, 16%, 96%);
+$color-very-light-gray: hsl(0, 0%, 98%);
+$color-white: hsl(0, 0%, 100%);
+
+// Rest
+$mobile-bp: 23.4375em;
+$desktop-bp: 90em;
+
+$font-primary: "Public Sans", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.25%;
+}
+
+body {
+  font-family: $font-primary;
+  color: black;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  overflow-x: hidden;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: $color-dark-blue;
+  padding-bottom: 1rem;
+  color: $color-grayish-blue;
+}
+.attribution a {
+  color: $color-white;
+  text-decoration: none;
+  transition: all 0.4s;
+  &:hover {
+    color: $color-lime-green-hover;
+  }
+}

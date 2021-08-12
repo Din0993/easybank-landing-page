@@ -84,7 +84,7 @@ body {
       .navigation__item {
         display: none; } }
     .navigation__item:hover {
-      border-image: linear-gradient(to left, #31d35c 2px, #2bb7da 2px) 1; }
+      border-bottom: 4px solid #2bb7da; }
     .navigation__item:hover > .navigation__link {
       color: #000; }
   .navigation__link:link, .navigation__link:visited {
@@ -179,6 +179,9 @@ body {
     padding: 0 25rem;
     padding-left: 16rem;
     transition: all 0.4s; }
+    @media only screen and (max-width: 1450px) {
+      .header__left-side {
+        padding-top: 5rem; } }
     @media only screen and (max-width: 1150px) {
       .header__left-side {
         padding-left: 8rem; } }

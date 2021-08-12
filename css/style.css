@@ -70,7 +70,6 @@ body {
     color: #9698a6;
     font-weight: 400;
     border-bottom: 4px solid transparent;
-    border-image: linear-gradient(to left, grey 1px, transparent 0) 1;
     height: 100%; }
     .navigation__item:not(:first-of-type) {
       margin-left: 3.5rem; }

@@ -41,7 +41,7 @@
     color: $color-grayish-blue;
     font-weight: 400;
     border-bottom: 4px solid transparent;
-    border-image: linear-gradient(to left, grey 1px, transparent 0) 1;
+    // border-image: linear-gradient(to left, grey 1px, transparent 0) 1;
     &:not(:first-of-type) {
       margin-left: 3.5rem;
       @media only screen and (max-width: 780px) {
